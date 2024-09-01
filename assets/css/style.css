@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+  
+
+.body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid #BEC1BB;
+    font-family: "Roboto", sans-serif;
+}
+.contactos{
+    display: flex;
+    flex:0 0 25%;
+}
+
+.img-nombre-usuario-inicio {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon-nombre-usuario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tamaño-imagen-usuario-menu{
+    height: 40px;
+    width: 40px;
+    border-radius: 360%;
+    padding: 4px;
+}
+
+.img-nombre-usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #BEC1BB;
+}
+
+.boton-nuevo-chat {
+    display: flex;
+    margin: 4px;
+    background-color: #A491D2;
+}
+
+.box-boton {
+    display: flex;
+    padding: 10px;
+}
+
+/*configuracion BOX contactos*/
+.usuarios {
+    display: flex;
+    height: 100vh;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 25%;/*crece 1 parte del espacio libre*/
+}
+
+.box-usuario{
+    display: flex;
+    border: 1px solid #BEC1BB;
+    justify-content: space-end;
+    align-items: center;
+  }
+
+.tamaño-imagen-usuario{
+    height: 60px;
+    width: 60px;
+    border-radius: 360%;
+    padding: 8px;
+
+}
+
+.box-the-img{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+
+.j {
+    display: flex;
+}
+
+.el {
+    padding-left: 60px;
+    align-items: stretch;
+    width: 10px;
+}
+.nombre-usuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 250px;
+    text-align: justify;
+    background-color: white;
+    padding-left: 0px;
+    padding-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+
+
+.elier{
+    display: flex;
+    flex: 0 0 75%;
+    background-color: #E8EBE4;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-principal{
+    width: 300px;
+    height: 300px;
+}
+
+.separar-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
